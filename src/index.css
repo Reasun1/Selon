@@ -26,38 +26,38 @@
 }
 
 :root {
-  /* Soft warm luxury off-white */
-  --background: #FAF9F6;
-  --foreground: #1C1917;
+  /* Rich Warm Sand/Alabaster */
+  --background: #FCF9F5;
+  --foreground: #3B312B;
 
-  /* Card and overlays */
-  --card: #FCFBF9;
-  --card-foreground: #1C1917;
-  --popover: #FCFBF9;
-  --popover-foreground: #1C1917;
+  /* Card and overlays (slightly lighter warm cream) */
+  --card: #FFFDFB;
+  --card-foreground: #3B312B;
+  --popover: #FFFDFB;
+  --popover-foreground: #3B312B;
 
-  /* Pure minimalist black/charcoal for primary */
-  --primary: #18181B;
-  --primary-foreground: #FAF9F6;
+  /* Earthy Warm Terracotta / Clay for primary */
+  --primary: #9E6B5A;
+  --primary-foreground: #FFFDFB;
 
-  /* Elegant muted warm gray */
-  --secondary: #F4F3F0;
-  --secondary-foreground: #27272A;
+  /* Warm Greige / Cashmere */
+  --secondary: #EBE5DF;
+  --secondary-foreground: #4A3E38;
   
-  --muted: #F4F3F0;
-  --muted-foreground: #71717A;
+  --muted: #F2EDE9;
+  --muted-foreground: #8B7E76;
 
-  /* Luxurious subtle beige/champagne */
-  --accent: #F5EFE6;
-  --accent-foreground: #1C1917;
+  /* Soft Warm Blush / Peach */
+  --accent: #EFE4DD;
+  --accent-foreground: #3B312B;
 
-  --destructive: #EF4444;
-  --destructive-foreground: #F9F9FB;
+  --destructive: #D9534F;
+  --destructive-foreground: #FFFDFB;
 
-  /* Soft borders and rings */
-  --border: #E4E4E7;
-  --input: #E4E4E7;
-  --ring: #18181B;
+  /* Warm cohesive borders */
+  --border: #E5DACF;
+  --input: #E5DACF;
+  --ring: #9E6B5A;
 }
 
 /* Custom premium typography helper class */
