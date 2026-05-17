@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+  
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+}
+
+:root {
+  /* Soft warm luxury off-white */
+  --background: #FAF9F6;
+  --foreground: #1C1917;
+
+  /* Card and overlays */
+  --card: #FCFBF9;
+  --card-foreground: #1C1917;
+  --popover: #FCFBF9;
+  --popover-foreground: #1C1917;
+
+  /* Pure minimalist black/charcoal for primary */
+  --primary: #18181B;
+  --primary-foreground: #FAF9F6;
+
+  /* Elegant muted warm gray */
+  --secondary: #F4F3F0;
+  --secondary-foreground: #27272A;
+  
+  --muted: #F4F3F0;
+  --muted-foreground: #71717A;
+
+  /* Luxurious subtle beige/champagne */
+  --accent: #F5EFE6;
+  --accent-foreground: #1C1917;
+
+  --destructive: #EF4444;
+  --destructive-foreground: #F9F9FB;
+
+  /* Soft borders and rings */
+  --border: #E4E4E7;
+  --input: #E4E4E7;
+  --ring: #18181B;
+}
+
+/* Custom premium typography helper class */
+.hairline {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  color: var(--muted-foreground);
+  font-weight: 500;
+}
+
+/* Base resets & luxury styles */
+body {
+  font-family: var(--font-sans);
+  background-color: var(--background);
+  color: var(--foreground);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+}
+
+/* Custom transitions and scrollbar */
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--muted-foreground);
+}
