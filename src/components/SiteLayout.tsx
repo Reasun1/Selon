@@ -105,8 +105,8 @@ export function SiteLayout({ children }: { children: React.ReactNode }) {
               <Scissors size={18} strokeWidth={1.4} /> Maison Lior
             </div>
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-muted-foreground">
-              A quiet sanctuary of craft and care in the heart of Cape Town —
-              dedicated to enhancing your natural beauty.
+              Step into our warm and welcoming sanctuary in the heart of Cape Town.
+              We are dedicated to enhancing your natural beauty with care, comfort, and exceptional craft.
             </p>
             <div className="mt-6 flex gap-3">
               <a
@@ -155,8 +155,11 @@ export function SiteLayout({ children }: { children: React.ReactNode }) {
             </ul>
           </div>
         </div>
-        <div className="border-t border-border/60 py-6 text-center text-xs text-muted-foreground">
-          © {new Date().getFullYear()} Maison Lior Salon. Made with care in Cape Town.
+        <div className="flex flex-col items-center justify-center gap-2 border-t border-border/60 py-8 text-center text-xs text-muted-foreground">
+          <p>© {new Date().getFullYear()} Maison Lior Salon. All rights reserved.</p>
+          <p>
+            Crafted with care by <a id="upscale-link" href="https://upscaleda.com" target="_blank" rel="noopener noreferrer" className="hover:text-sage transition-colors underline decoration-white/20 underline-offset-4 inline-block">UPSCALE DIGITAL</a>
+          </p>
         </div>
       </footer>
     </div>
